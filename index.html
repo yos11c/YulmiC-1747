@@ -13,29 +13,46 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     </head>
     <body>
       
-        
-        <div class="container">
-            <<h1>Formulario de Cliente</h1>
-             <a href="NewServlet"> click aquí</a><br><br>
-  
-        <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-            <!-- Content here -->
-</div>
-    </body>
-</html>
+        <br><br>
+        <div class="container ">
+            <font face="Arial" size="15" color="red">REGISTRO DE CLIENTES</font>
+             <img src="http://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/65.png" class="card-img" alt="10">
+        <form action="NewServlet">
+            <div class="form-group">
 
+                <label for="exampleInputEmail1"> CODIGO </label>
+                <input class="form-control" type="text" name="codigo" placeholder="INGRESE SU CODIGO">
+
+                <label for="exampleInputEmail1">  NOMBRE </label>
+                <input class="form-control" type="text" name="nombre" placeholder="INGRESE SU NOMBRE">
+
+
+                <label for="exampleInputEmail1"> APELLIDO </label>
+                <input color="red" class="form-control" type="text" name="apellido" placeholder="INGRESE SU APELLIDO">
+
+                <label for="exampleInputEmail1"> NUMERO </label>
+
+                <input color="red" class="form-control" type="tel" name="numero" placeholder="INGRE SU NUMERO TELEFONICO ">
+
+            </div>
+
+            <label for="exampleInputEmail1">CORREO ELECTRONICO</label>
+            <input class="form-control" type="text" name="correo" placeholder="INGRESE SU CORREO">
+
+            <small id="emailHelp" class="form-text text-muted">Su correo esta resguardado en todo momento.</small>
+            <div class="form-group">
+            </div>
+            <div class="form-group form-check">
+
+
+                <div class="vr"></div>
+
+
+
+                </select><br>
+                <button type="submit" class="btn btn-success">Guardar</button>
+                <button type="button" class="btn btn-danger">Cancelar</button>
+        </form>
+</body>
+
+</html>
