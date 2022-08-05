@@ -50,12 +50,13 @@ public class NewServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.print("<div class=\"container\">");
-          out.println("<h1> CLIENTES  " + "</h1>");
-            out.println("<h3>"  +"Nombre " + ClienteModell.getNombre() + "</h3>");
-            out.println("<h3>"  +"Codigo " + ClienteModell.getCodigo()+ "</h3>");
-            out.println("<h3>"  +"Apellido: " + ClienteModell.getApellido()+ "</h3>");
+            out.println("<h1> Datos del cliente registrado, gracias por registrarse  " + request.getContextPath() + "</h1>");
+             out.println("<h1> Datos del cliente registrado, gracias por registrarse " + " </h1><br>");   
+             out.println("<h3>"  +"Nombre " + ClienteModell.getNombre() + "</h3>");
+             out.println("<h3>"  +"Codigo " + ClienteModell.getCodigo()+ "</h3>");
+             out.println("<h3>"  +"Apellido: " + ClienteModell.getApellido()+ "</h3>");
              out.println("<h3>" +"Numero: " + ClienteModell.getNumero()+ "</h3>");
-              out.println("<h3>" +"Correo: " + ClienteModell.getCorreo()+ "</h3>");
+             out.println("<h3>" +"Correo: " + ClienteModell.getCorreo()+ "</h3>");
              out.print("<a class=\"btn btn-primary\" href=\"index.html\" role=\"button\">Registro De Clientes</a>");
              out.print("   </div>");
              out.println("</body>");
